@@ -33,6 +33,7 @@ import Control.Arrow (right, left, first)
 import Control.Monad (liftM)
 import qualified Control.Monad.Catch as C (MonadThrow(..), MonadCatch(..))
 import Control.Monad.Cont
+import Control.Monad.Fix (MonadFix)
 import Control.Monad.Trans.Except
 import Control.Monad.Error.Class
 import Control.Monad.IO.Class
